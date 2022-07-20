@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.first-banner {
+    background-color: #161616;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.button {
+    background-color: #DD0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.footballer-img {
+    max-width: 100%
+}
+
+.greatest-texts {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.greatest-texts h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.greatest-texts p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.second-banner {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.footballer-img .salee {
+    height: 72vh;
+}
+
+.first-aside {
+    background-color: rgb(22, 22, 22);
+    padding: 30px 32px;
+    height: 30vh;
+    margin-right: 25px;
+}
+
+.three-box li {
+    padding: 6px 20px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: white;
+    margin: 17px 0px;
+    list-style: none;
+    border-radius: 10px;
+}
+
+.three-box li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #161616;
+    text-decoration: none;
+}
+
+
+.main-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-heading {
+    background-color: #161616;
+    height: 20vh;
+    color: white;
+    text-align: center;
+}
+
+
+.last {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.last li {
+    list-style: none
+}
