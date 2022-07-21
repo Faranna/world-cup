@@ -42,7 +42,7 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 4.375em;
     line-height: 80px;
     margin-top: 50px;
     margin-bottom: 45px;
@@ -52,7 +52,7 @@ body {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 26px;
     margin-bottom: 30px;
 }
@@ -67,6 +67,28 @@ body {
 
 .footballer-img .salee {
     height: 72vh;
+}
+
+.text-border {
+    border: 1px solid black;
+    display: inline;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #161616;
+
+}
+
+.gaps {
+    margin-top: 30px;
+    margin-right: 60px;
 }
 
 .first-aside {
@@ -90,6 +112,9 @@ body {
     width: 252px;
     height: 64px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .three-box li:hover {
@@ -97,6 +122,9 @@ body {
     color: white;
 }
 
+.first h3 {
+    margin: 10px 0;
+}
 
 
 .three-box li a {
@@ -126,6 +154,25 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
+}
+
+.bonus {
+    display: flex;
+    flex-direction: center;
+    visibility: hidden;
+}
+
+.bonus-button {
+
+    background-color: #DD0000;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .footer-heading {
@@ -217,6 +264,14 @@ hr {
 
         grid-template-columns: repeat(2, 1fr);
 
+    }
+
+    .bonus {
+        display: flex;
+        visibility: visible;
+        /* align-content: stretch; */
+        justify-content: space-around;
+        margin-bottom: 26px;
     }
 
 }
